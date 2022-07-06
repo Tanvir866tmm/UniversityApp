@@ -147,6 +147,8 @@ public class HomeFrame extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
+        this.setVisible(false);
+        new StudentFrame().setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
